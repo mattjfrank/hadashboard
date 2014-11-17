@@ -2,14 +2,36 @@
 // Widget-stmeter styles
 // ----------------------------------------------------------------------------
 .widget-stmeter {
+  background-color: #444 !important;
 
+<<<<<<< HEAD
   input.stmeter {
     background-color: #444;
     color: #aa00ff;
+=======
+
+  input.stmeter {
+    background-color: #888;
+    color: #fff;
+>>>>>>> 865abc46ee97c0de97d1e092b5c4eeab7b24c2d8
   }
 
   .title {
     color: #fff;
   }
 
+  .low-value {
+    color: #ffffff;
+    background-color: #888;
+    }
+
+  .mid-value {
+    color: #FF1493;
+    background-color: #888;
+  }
+
+  .high-value {
+    color: #FF3300;
+    background-color: #888;
+  }
 }

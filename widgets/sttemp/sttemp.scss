@@ -2,6 +2,10 @@
 // Widget-sttemp styles
 // ----------------------------------------------------------------------------
 .widget-sttemp {
+<<<<<<< HEAD
+=======
+  background-color: #444 !important;
+>>>>>>> 865abc46ee97c0de97d1e092b5c4eeab7b24c2d8
 
   .title {
     color: #fff;
@@ -14,7 +18,11 @@
   }
 
   .unit {
+<<<<<<< HEAD
     color: #00aaff;
+=======
+    color: #888;
+>>>>>>> 865abc46ee97c0de97d1e092b5c4eeab7b24c2d8
     font-size: 250%;
     font-weight: 400;
     display: inline-block;
@@ -22,4 +30,25 @@
     margin-left: 5px;
     margin-top: 5px;
   }
+<<<<<<< HEAD
+=======
+
+  .low-value {
+    color: #00aaff;
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  .mid-value {
+    color: #ffffff;
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  .high-value {
+    color: #FF3300;
+    display: inline-block;
+    vertical-align: middle;
+  }
+>>>>>>> 865abc46ee97c0de97d1e092b5c4eeab7b24c2d8
 }

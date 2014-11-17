@@ -2,6 +2,7 @@
 // Widget-stcontact styles
 // ----------------------------------------------------------------------------
 .widget-stcontact {
+<<<<<<< HEAD
 
   .title {
     color: #fff;
@@ -9,10 +10,30 @@
 
   .icon-open {
   	color: #ff00aa;
+=======
+  background-color: #444 !important;
+
+  .title {
+  }
+
+  .icon-open {
+  	color: #FF9900;
+>>>>>>> 865abc46ee97c0de97d1e092b5c4eeab7b24c2d8
   }
 
   .icon-closed {
   	color: #888888;
+<<<<<<< HEAD
+=======
+  }
+
+  .rotate {
+    -moz-transform:rotate(45deg);
+    -webkit-transform:rotate(45deg);
+    -o-transform:rotate(45deg);
+    -ms-transform:rotate(45deg);
+    transform:rotate(45deg)
+>>>>>>> 865abc46ee97c0de97d1e092b5c4eeab7b24c2d8
   }
 
 }

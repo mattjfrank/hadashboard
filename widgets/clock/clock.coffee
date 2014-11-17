@@ -16,7 +16,7 @@ class Dashing.Clock extends Dashing.Widget
     if i < 10 then "0" + i else i
 
   formatAmPm: (h) ->
-    if h >= 12 then "PM" else "AM"
+    if h >= 12 then "" else ""
 
   formatHours: (h) ->
     if h > 12
@@ -25,3 +25,6 @@ class Dashing.Clock extends Dashing.Widget
       12
     else
       h
+
+  onClick: (node, event) ->
+    window.location.href = '/main'

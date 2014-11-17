@@ -1,4 +1,4 @@
-class Dashing.Sttemp extends Dashing.Widget
+class Dashing.Sthumidity extends Dashing.Widget
   constructor: ->
     super
     @queryState()
@@ -7,16 +7,10 @@ class Dashing.Sttemp extends Dashing.Widget
     get: -> if @_value then Math.floor(@_value) else 0
     set: (key, value) -> @_value = value
 
-  @accessor 'colored-value',
-    get: ->
-         return 'high-value' if @get('value') > 78
-         return 'mid-value' if @get('value') > 65
-         return 'low-value'
-
   queryState: ->
     $.get '/smartthings/dispatch',
       widgetId: @get('id'),
-      deviceType: 'temperature',
+      deviceType: 'humidity',
       deviceId: @get('device')
       (data) =>
         json = JSON.parse data
